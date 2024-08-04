@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_user_role">
+    <sys_user_role action="INSERT_OR_UPDATE">
+        <assignable_by/>
+        <can_delegate>true</can_delegate>
+        <description/>
+        <elevated_privilege>false</elevated_privilege>
+        <grantable>true</grantable>
+        <includes_roles/>
+        <name>x_1134503_lva.vehicle_servicing</name>
+        <scoped_admin>false</scoped_admin>
+        <suffix>vehicle_servicing</suffix>
+        <sys_class_name>sys_user_role</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-08-02 05:37:50</sys_created_on>
+        <sys_id>002eeac547bb0210376dd879316d4330</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_1134503_lva.vehicle_servicing</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sys_user_role_002eeac547bb0210376dd879316d4330</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-08-02 05:37:50</sys_updated_on>
+    </sys_user_role>
+</record_update>
