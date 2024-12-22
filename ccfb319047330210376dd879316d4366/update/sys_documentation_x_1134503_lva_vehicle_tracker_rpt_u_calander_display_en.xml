@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="rpt_u_calander_display" label="u_calander_display" language="en" table="x_1134503_lva_vehicle_tracker">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>rpt_u_calander_display</element>
+            <help/>
+            <hint/>
+            <label>u_calander_display</label>
+            <language>en</language>
+            <name>x_1134503_lva_vehicle_tracker</name>
+            <plural>u_calander_displays</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>richard.castillo</sys_created_by>
+            <sys_created_on>2024-12-22 05:57:24</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>u_calander_display</sys_name>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+            <sys_update_name>sys_documentation_x_1134503_lva_vehicle_tracker_rpt_u_calander_display_en</sys_update_name>
+            <sys_updated_by>richard.castillo</sys_updated_by>
+            <sys_updated_on>2024-12-22 05:57:24</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

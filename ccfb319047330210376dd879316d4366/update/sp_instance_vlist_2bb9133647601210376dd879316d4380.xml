@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field>cat_item</display_field>
+        <field_list>cat_item,number,due_date</field_list>
+        <filter table="sc_req_item">cat_item=36f16f1147f70210376dd879316d4369^requested_for=javascript:gs.getUserID()<item display_table="sc_cat_item" display_value="Request Loaner Vehicle" endquery="false" field="cat_item" goto="false" newquery="false" operator="=" or="false" value="36f16f1147f70210376dd879316d4369"/>
+            <item endquery="false" field="requested_for" goto="false" newquery="false" operator="=" or="false" value="javascript:gs.getUserID()"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>3</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">3c84977e47201210376dd879316d4310</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-14 02:04:52</sys_created_on>
+        <sys_id>2bb9133647601210376dd879316d4380</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_instance_vlist_2bb9133647601210376dd879316d4380</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-12-22 06:51:43</sys_updated_on>
+        <table>sc_req_item</table>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "",
+		"displayValue": ""
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,sys_created_on,due_date",
+		"displayValue": "number,sys_created_on,due_date"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "",
+		"displayValue": ""
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	},
+	"disable_record_watcher": {
+		"value": "",
+		"displayValue": ""
+	},
+	"filter_acls": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+    <sys_translated_text action="delete_multiple" query="documentkey=2bb9133647601210376dd879316d4380"/>
+</record_update>

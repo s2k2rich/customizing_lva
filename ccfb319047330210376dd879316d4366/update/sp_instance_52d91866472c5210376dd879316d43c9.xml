@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">dad91866472c5210376dd879316d43c6</sp_column>
+        <sp_widget display_value="Related Catalog Item">806f40990fab2300b7b2c8337a767e6f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-12 17:27:59</sys_created_on>
+        <sys_id>52d91866472c5210376dd879316d43c9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Related Items</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_instance_52d91866472c5210376dd879316d43c9</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-12 17:27:59</sys_updated_on>
+        <title>Related Items</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"source_table": {
+		"value": "sc_2_sc",
+		"displayValue": "sc_2_sc"
+	},
+	"source_column": {
+		"value": "sc_cat_item",
+		"displayValue": "sc_cat_item"
+	},
+	"target_column": {
+		"value": "related_sc_cat_item",
+		"displayValue": "related_sc_cat_item"
+	},
+	"title": {
+		"value": "Related Items",
+		"displayValue": "Related Items"
+	},
+	"max_number": {
+		"value": 5,
+		"displayValue": "5"
+	},
+	"source_id": {
+		"value": "",
+		"displayValue": ""
+	},
+	"use_full_width": {
+		"value": "false",
+		"displayValue": "false"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=52d91866472c5210376dd879316d43c9"/>
+</record_update>

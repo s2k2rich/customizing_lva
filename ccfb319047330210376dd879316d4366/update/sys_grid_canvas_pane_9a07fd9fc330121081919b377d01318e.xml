@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_grid_canvas_pane">
+    <sys_grid_canvas_pane action="INSERT_OR_UPDATE">
+        <grid_canvas display_value="New Tab 1">1c41c3cb47a05210376dd879316d4376</grid_canvas>
+        <height>16</height>
+        <portal_widget display_value="Created 09-27-2024 11:26:15">5207fd9fc330121081919b377d01318d</portal_widget>
+        <posx>3</posx>
+        <posy>8</posy>
+        <sys_class_name>sys_grid_canvas_pane</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-27 18:26:15</sys_created_on>
+        <sys_id>9a07fd9fc330121081919b377d01318e</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_name>1c41c3cb47a05210376dd879316d4376</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sys_grid_canvas_pane_9a07fd9fc330121081919b377d01318e</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-12-21 01:14:43</sys_updated_on>
+        <width>9</width>
+    </sys_grid_canvas_pane>
+</record_update>

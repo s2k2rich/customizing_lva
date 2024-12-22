@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>bar-chart</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Information for Contractor Vehicle request</short_description>
+        <size>md</size>
+        <sp_column display_value="2">ce6c08c247641210376dd879316d431a</sp_column>
+        <sp_page display_value="kb_view2">26c2e030d7201200a9addd173e24d437</sp_page>
+        <sp_widget display_value="Icon Link">3caa67afcb13020000f8d856634c9c2e</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-11 03:12:16</sys_created_on>
+        <sys_id>c26c08c247641210376dd879316d431d</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_instance_link_c26c08c247641210376dd879316d431d</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:20:27</sys_updated_on>
+        <title>Dashboard</title>
+        <type>url</type>
+        <url>$pa_dashboard.do?sysparm_dashboard=a7b00b4f47a05210376dd879316d431c&amp;sysparm_tab=1c41c38f47a05210376dd879316d4309&amp;sysparm_cancelable=true&amp;sysparm_editable=true&amp;sysparm_active_panel=shareOptionsSideContent</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="DELETE" query="documentkey=c26c08c247641210376dd879316d431d"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</application>
+        <file_path/>
+        <instance_id>4e501a58db8ef594b1eb9027c5961926</instance_id>
+        <instance_name>dev189854</instance_name>
+        <name>sp_instance_link_c26c08c247641210376dd879316d431d</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sp_instance_link"&gt;&lt;sp_instance_link action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;class_name/&gt;&lt;color&gt;default&lt;/color&gt;&lt;css/&gt;&lt;glyph&gt;bar-chart&lt;/glyph&gt;&lt;id/&gt;&lt;kb_article/&gt;&lt;kb_category/&gt;&lt;kb_topic/&gt;&lt;order&gt;1&lt;/order&gt;&lt;roles/&gt;&lt;sc_cat_item/&gt;&lt;sc_category/&gt;&lt;short_description&gt;Information for Contractor Vehicle request&lt;/short_description&gt;&lt;size&gt;md&lt;/size&gt;&lt;sp_column display_value="2"&gt;ce6c08c247641210376dd879316d431a&lt;/sp_column&gt;&lt;sp_page display_value="kb_view2"&gt;26c2e030d7201200a9addd173e24d437&lt;/sp_page&gt;&lt;sp_widget display_value="Icon Link"&gt;3caa67afcb13020000f8d856634c9c2e&lt;/sp_widget&gt;&lt;sys_class_name&gt;sp_instance_link&lt;/sys_class_name&gt;&lt;sys_created_by&gt;richard.castillo&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2024-09-11 03:12:16&lt;/sys_created_on&gt;&lt;sys_id&gt;c26c08c247641210376dd879316d431d&lt;/sys_id&gt;&lt;sys_mod_count&gt;10&lt;/sys_mod_count&gt;&lt;sys_name&gt;Dashboard&lt;/sys_name&gt;&lt;sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva"&gt;ccfb319047330210376dd879316d4366&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Loaner Vehicle Request and Inventory"&gt;ccfb319047330210376dd879316d4366&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_instance_link_c26c08c247641210376dd879316d431d&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;richard.castillo&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2024-09-27 20:20:27&lt;/sys_updated_on&gt;&lt;title&gt;Dashboard&lt;/title&gt;&lt;type&gt;url&lt;/type&gt;&lt;url&gt;$pa_dashboard.do?sysparm_dashboard=a7b00b4f47a05210376dd879316d431c&amp;amp;sysparm_tab=1c41c38f47a05210376dd879316d4309&amp;amp;sysparm_cancelable=true&amp;amp;sysparm_editable=true&amp;amp;sysparm_active_panel=shareOptionsSideContent&lt;/url&gt;&lt;widget_parameters&gt;&lt;![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]&gt;&lt;/widget_parameters&gt;&lt;/sp_instance_link&gt;&lt;sys_translated_text action="delete_multiple" query="documentkey=c26c08c247641210376dd879316d431d"/&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-2127732020</payload_hash>
+        <record_name>Dashboard</record_name>
+        <reverted_from/>
+        <source>28af061047730210376dd879316d434e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-27 20:20:27</sys_created_on>
+        <sys_id>872156dfc3b0121081919b377d01317d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>192352459500000001</sys_recorded_at>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-27 20:20:27</sys_updated_on>
+        <type>Instance with Link</type>
+        <update_guid>0f2156df7db01210149141781d7a4b7c</update_guid>
+        <update_guid_history>0f2156df7db01210149141781d7a4b7c:-2127732020,6c119adf1eb01210e982ff9d9d2a3e5d:1029421346,dc0116df3ab01210a7dfc04dc4af97c6:-1074206422,22a05e5fa8b01210b49a827d3d90a315:1494714889,5180de9f7ab012105114e845cbafab1e:158148034,ef201e5f5bb012104d8b64a39a4ca3df:423331266,c4af861b9bb01210173b92e050989428:-619992969,cd684a17a6b01210d0c21ae2aee497e7:-1913750413,11e3428145b012106faec5096d000ac2:1150424458,6bc2ab06192412102ab13fa32fc51ed9:1471523778,066c08c27e6412105a9503239a17fb1e:788700417</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Dashboard">7659ea1bc334121081919b377d0131a8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-27 22:06:06</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_link">sp_instance_link</sys_db_object>
+        <sys_id>00cb07509097496080fab947c8977010</sys_id>
+        <sys_metadata>c26c08c247641210376dd879316d431d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_scope_delete display_value="">42c9e5f9d2754f10935e53bbdab06810</sys_scope_delete>
+        <sys_update_name>sp_instance_link_c26c08c247641210376dd879316d431d</sys_update_name>
+        <sys_update_version display_value="sp_instance_link_c26c08c247641210376dd879316d431d">872156dfc3b0121081919b377d01317d</sys_update_version>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-27 22:06:06</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

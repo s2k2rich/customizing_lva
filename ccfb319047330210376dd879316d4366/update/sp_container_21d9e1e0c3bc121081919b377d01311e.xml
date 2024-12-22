@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Haul YeaH - Container 3</name>
+        <order>3</order>
+        <semantic_tag/>
+        <sp_page display_value="hyc_index">316c4cce47241210376dd879316d4352</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-19 04:25:17</sys_created_on>
+        <sys_id>21d9e1e0c3bc121081919b377d01311e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Haul YeaH - Container 3</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_container_21d9e1e0c3bc121081919b377d01311e</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-19 04:25:17</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+</record_update>

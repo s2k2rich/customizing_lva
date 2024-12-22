@@ -3,107 +3,107 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">526e03dc47b70210376dd879316d4372</list_id>
+            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">56baed6c47045210376dd879316d4352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
             <sum>false</sum>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
-            <sys_id>9e6e03dc47b70210376dd879316d4372</sys_id>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
+            <sys_id>d6baed6c47045210376dd879316d4354</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>status</element>
-            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">526e03dc47b70210376dd879316d4372</list_id>
+            <element>image</element>
+            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">56baed6c47045210376dd879316d4352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
             <sum>false</sum>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
-            <sys_id>926e03dc47b70210376dd879316d4373</sys_id>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
+            <sys_id>9ebaed6c47045210376dd879316d4354</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>vehicle_description</element>
-            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">526e03dc47b70210376dd879316d4372</list_id>
+            <element>status</element>
+            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">56baed6c47045210376dd879316d4352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
             <sum>false</sum>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
-            <sys_id>966e03dc47b70210376dd879316d4373</sys_id>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
+            <sys_id>12baed6c47045210376dd879316d4355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>vehicle_make</element>
-            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">526e03dc47b70210376dd879316d4372</list_id>
+            <element>vehicle_description</element>
+            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">56baed6c47045210376dd879316d4352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
             <sum>false</sum>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
-            <sys_id>9a6e03dc47b70210376dd879316d4373</sys_id>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
+            <sys_id>92baed6c47045210376dd879316d4355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>vehicle_model</element>
-            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">526e03dc47b70210376dd879316d4372</list_id>
+            <element>vehicle_make</element>
+            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">56baed6c47045210376dd879316d4352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
             <sum>false</sum>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
-            <sys_id>9e6e03dc47b70210376dd879316d4373</sys_id>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
+            <sys_id>16baed6c47045210376dd879316d4355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>vehicle_year</element>
-            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">526e03dc47b70210376dd879316d4372</list_id>
+            <element>vehicle_model</element>
+            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">56baed6c47045210376dd879316d4352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
             <sum>false</sum>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
-            <sys_id>926e03dc47b70210376dd879316d4374</sys_id>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
+            <sys_id>96baed6c47045210376dd879316d4355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
-            <element>image</element>
-            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">526e03dc47b70210376dd879316d4372</list_id>
+            <element>vehicle_year</element>
+            <list_id display_value="x_1134503_lva_loaner_vehicle_catalog" element="NULL" name="x_1134503_lva_loaner_vehicle_catalog" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">56baed6c47045210376dd879316d4352</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>6</position>
             <sum>false</sum>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
-            <sys_id>966e03dc47b70210376dd879316d4374</sys_id>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
+            <sys_id>1abaed6c47045210376dd879316d4355</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
         </sys_ui_list_element>
         <sys_ui_list action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
@@ -117,10 +117,10 @@
             <sum>false</sum>
             <sys_class_name>sys_ui_list</sys_class_name>
             <sys_created_by>richard.castillo</sys_created_by>
-            <sys_created_on>2024-07-31 00:03:26</sys_created_on>
+            <sys_created_on>2024-08-12 21:42:05</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>526e03dc47b70210376dd879316d4372</sys_id>
+            <sys_id>56baed6c47045210376dd879316d4352</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>x_1134503_lva_loaner_vehicle_catalog</sys_name>
             <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
@@ -128,7 +128,7 @@
             <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
             <sys_update_name>sys_ui_list_x_1134503_lva_loaner_vehicle_catalog_null</sys_update_name>
             <sys_updated_by>richard.castillo</sys_updated_by>
-            <sys_updated_on>2024-07-31 00:03:26</sys_updated_on>
+            <sys_updated_on>2024-08-12 21:42:05</sys_updated_on>
             <sys_user/>
             <view display_value="Default view" name="NULL">Default view</view>
             <view_name/>

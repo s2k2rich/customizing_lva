@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="m2m_sp_theme_css_include">
+    <m2m_sp_theme_css_include action="INSERT_OR_UPDATE">
+        <order/>
+        <sp_css_include display_value="sp-theme-la-jolla.css">ba42ffc277002300a6e592718a1061ce</sp_css_include>
+        <sp_theme display_value="hyc_theme">237ce8aa476c5210376dd879316d43b9</sp_theme>
+        <sys_class_name>m2m_sp_theme_css_include</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-12 19:11:53</sys_created_on>
+        <sys_id>aca1f4e247ac5210376dd879316d43e1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sp-theme-la-jolla.css.hyc_theme</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>m2m_sp_theme_css_include_aca1f4e247ac5210376dd879316d43e1</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-12 19:11:53</sys_updated_on>
+    </m2m_sp_theme_css_include>
+</record_update>

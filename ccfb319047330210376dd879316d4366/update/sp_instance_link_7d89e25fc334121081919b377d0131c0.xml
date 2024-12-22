@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_link">
+    <sp_instance_link action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph>bar-chart</glyph>
+        <id/>
+        <kb_article/>
+        <kb_category/>
+        <kb_topic/>
+        <order>1</order>
+        <roles/>
+        <sc_cat_item/>
+        <sc_category/>
+        <short_description>Information on Contractor Vehicle Request</short_description>
+        <size>md</size>
+        <sp_column display_value="2">ce6c08c247641210376dd879316d431a</sp_column>
+        <sp_page/>
+        <sp_widget display_value="hyc_dash">e0f8eedfc3b0121081919b377d013190</sp_widget>
+        <sys_class_name>sp_instance_link</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-27 22:06:52</sys_created_on>
+        <sys_id>7d89e25fc334121081919b377d0131c0</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Dashboard</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_instance_link_7d89e25fc334121081919b377d0131c0</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-27 22:10:37</sys_updated_on>
+        <title>Dashboard</title>
+        <type>url</type>
+        <url>$pa_dashboard.do?sysparm_dashboard=a7b00b4f47a05210376dd879316d431c&amp;sysparm_tab=1c41c38f47a05210376dd879316d4309&amp;sysparm_cancelable=true&amp;sysparm_editable=true&amp;sysparm_active_panel=allPermissionsList</url>
+        <widget_parameters><![CDATA[{
+	"link_template": {
+		"value": "Circle Icon",
+		"displayValue": "Circle Icon"
+	}
+}]]></widget_parameters>
+    </sp_instance_link>
+    <sys_translated_text action="delete_multiple" query="documentkey=7d89e25fc334121081919b377d0131c0"/>
+</record_update>

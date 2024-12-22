@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_page">
+    <sp_page action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <css>section.page{
+  padding-top: 0;
+}main.body {
+  padding-top: 0;
+}
+.kb-home-explorer-continer{
+ background-color:#ffffff;
+  margin-bottom:20px;
+}
+.banner-container {
+    height: 230px;
+  	width: 100%;
+}
+.v-h-center {
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+}
+.search-container{
+  padding-top: 3.7rem;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 992px) {
+  .banner-container {
+    height: 85px;
+  }
+  .search-container{
+    padding-top: 0.1rem;
+  }
+}</css>
+        <draft>false</draft>
+        <dynamic_title_structure/>
+        <human_readable_url_structure/>
+        <id>hyc_kb_home</id>
+        <internal>false</internal>
+        <omit_watcher>false</omit_watcher>
+        <public>false</public>
+        <roles>snc_external,snc_internal</roles>
+        <seo_script/>
+        <short_description>Haul YeaH Knowledge Home Page</short_description>
+        <sys_class_name>sp_page</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-11 03:14:12</sys_created_on>
+        <sys_id>8edc44c247641210376dd879316d43f5</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>hyc_kb_home</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_page_8edc44c247641210376dd879316d43f5</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-11 03:15:26</sys_updated_on>
+        <title>HYC Knowledge Home</title>
+        <use_seo_script>false</use_seo_script>
+    </sp_page>
+    <sys_translated_text action="delete_multiple" query="documentkey=8edc44c247641210376dd879316d43f5"/>
+</record_update>

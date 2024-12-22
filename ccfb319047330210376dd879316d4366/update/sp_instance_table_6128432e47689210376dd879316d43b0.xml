@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_table">
+    <sp_instance_table action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>warning</color>
+        <css>h2{&#13;
+  font-family: "Suez One", system-ui;&#13;
+  font-weight: 400;&#13;
+  font-style: normal;&#13;
+  font-size: 24px; &#13;
+  color:#335c67;&#13;
+}&#13;
+&#13;
+a {&#13;
+  color: black;&#13;
+}&#13;
+&#13;
+.th-title { color: black !important; }&#13;
+text{color:#000000;}&#13;
+$brand-warning:#343330;&#13;
+&#13;
+body {&#13;
+  color:000000;&#13;
+}</css>
+        <display_field>number</display_field>
+        <field_list>number,image,status,vehicle_description,vehicle_make,vehicle_model,vehicle_year</field_list>
+        <filter/>
+        <glyph>empty</glyph>
+        <id/>
+        <maximum_entries>3</maximum_entries>
+        <order>1</order>
+        <order_by>number</order_by>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">b884977e47201210376dd879316d4301</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Data Table from Instance Definition">38058ff1cb11020000f8d856634c9c8c</sp_widget>
+        <sys_class_name>sp_instance_table</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-13 06:09:30</sys_created_on>
+        <sys_id>6128432e47689210376dd879316d43b0</sys_id>
+        <sys_mod_count>42</sys_mod_count>
+        <sys_name>Contractor Vehicles Catalog</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_instance_table_6128432e47689210376dd879316d43b0</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-10-02 19:12:06</sys_updated_on>
+        <table>x_1134503_lva_loaner_vehicle_catalog</table>
+        <title>Contractor Vehicles Catalog</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_table>
+    <sys_translated_text action="delete_multiple" query="documentkey=6128432e47689210376dd879316d43b0"/>
+</record_update>

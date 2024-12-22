@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="gsw_change_log">
+    <gsw_change_log action="INSERT_OR_UPDATE">
+        <change_date>2024-09-20 00:20:39</change_date>
+        <changed_by display_value="Richard Castillo">ea58c236472b0210376dd879316d43f6</changed_by>
+        <content display_value="Step1">a4cbfd4053204300d044ddeeff7b12a1</content>
+        <related_change_log_entry/>
+        <related_task_entry/>
+        <sys_class_name>gsw_change_log</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-20 00:20:39</sys_created_on>
+        <sys_id>f76b3d70c3f0921081919b377d01317e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>2024-09-20 00:20:39</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>gsw_change_log_f76b3d70c3f0921081919b377d01317e</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-20 00:20:39</sys_updated_on>
+        <type>1</type>
+    </gsw_change_log>
+</record_update>

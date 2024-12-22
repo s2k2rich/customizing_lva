@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="kb_article_template_definition">
+    <kb_article_template_definition action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <article_template display_value="Vehicle Description Template">b83010e4c3f4121081919b377d013198</article_template>
+        <collapsible/>
+        <column_label>Article Body vehicle description</column_label>
+        <column_type>string</column_type>
+        <field_style/>
+        <heading_style/>
+        <mandatory>false</mandatory>
+        <order/>
+        <preview_text><![CDATA[<p>##Overview:<br />[Provide a brief description of the vehicle&#39;s purpose and key characteristics.]</p>
+<p>##Features:<br />- Feature 1: [Describe feature 1]<br />- Feature 2: [Describe feature 2]<br />- Feature 3: [Describe feature 3]</p>
+<p>##Recommended Uses:<br />[List the main use cases and scenarios where this vehicle would be best suited.]</p>
+<p>##Additional Information:<br />- Payload capacity: [Enter the payload capacity]<br />- Towing capacity: [Enter the towing capacity]<br />- Fuel efficiency: [Optional, enter fuel details or leave blank if not applicable]</p>]]></preview_text>
+        <sys_class_name>kb_article_template_definition</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-18 21:57:39</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>c0b09ce4c3f4121081919b377d013112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Article Body vehicle description</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>kb_article_template_definition_c0b09ce4c3f4121081919b377d013112</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-18 21:57:39</sys_updated_on>
+        <table_column>x_1134503_lva_u_kb_article_body_vehicle_description</table_column>
+    </kb_article_template_definition>
+</record_update>

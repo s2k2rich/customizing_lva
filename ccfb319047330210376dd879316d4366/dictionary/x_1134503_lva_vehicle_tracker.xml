@@ -1,40 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element audit="true" db_object_id="2902348947330210376dd879316d4389" label="Vehicle Tracker" max_length="40" name="x_1134503_lva_vehicle_tracker" type="collection">
-        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="Return Vehicle Status" max_length="40" name="return_vehicle_status" type="choice">
-            <choice>
-                <element inactive_on_update="false" label="Returned with Minor Issues" sequence="200" value="Returned with Minor Issues"/>
-                <element inactive_on_update="false" label="Returned with Major Issues" sequence="300" value="Returned with Major Issues"/>
-                <element inactive_on_update="false" label="Returned in Good Condition" sequence="100" value="Returned in Good Condition"/>
-            </choice>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="Actual Return Date" max_length="40" name="actual_return_date" type="glide_date"/>
+        <element label="Additional Comments" max_length="1000" name="additional_comments" type="string"/>
         <element label="Assigned to" max_length="32" name="assigned_to" reference="sys_user" type="reference"/>
         <element label="Date Requested" max_length="40" name="date_requested" type="glide_date"/>
+        <element label="Delivery Information" max_length="1000" name="delivery_information" type="string"/>
+        <element label="Expected Return Date" max_length="40" name="expected_return_date" type="glide_date"/>
+        <element label="Location" max_length="32" name="location" reference="cmn_location" type="reference"/>
         <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
-        <element choice="1" label="Tracker Status" mandatory="true" max_length="40" name="tracker_status" type="choice">
+        <element label="Request Number" max_length="32" name="request_number" reference="sc_req_item" reference_qual="cat_item=36f16f1147f70210376dd879316d4369^EQ" reference_qual_condition="cat_item=36f16f1147f70210376dd879316d4369^EQ" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Return Notes" max_length="1000" name="return_notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="1" label="Return Vehicle Status" max_length="40" name="return_vehicle_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Cancelled" sequence="300" value="Cancelled"/>
-                <element inactive_on_update="false" label="Open" sequence="100" value="Open"/>
-                <element inactive_on_update="false" label="Closed" sequence="200" value="Closed"/>
+                <element inactive_on_update="false" label="Returned in Good Condition" sequence="100" value="Returned in Good Condition"/>
+                <element inactive_on_update="false" label="Returned with Minor Issues" sequence="200" value="Returned with Minor Issues"/>
+                <element inactive_on_update="false" label="Returned with Major Issues" sequence="300" value="Returned with Major Issues"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="Actual Return Date" max_length="40" name="actual_return_date" type="glide_date"/>
-        <element label="Delivery Information" max_length="1000" name="delivery_information" type="string"/>
-        <element label="Request Number" max_length="32" name="request_number" reference="sc_req_item" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" function_definition="glidefunction:concat(expected_return_date,vehicle,number)" function_field="true" label="u_calander_display" max_length="255" name="rpt_u_calander_display" read_only="true" type="string"/>
+        <element choice="1" label="Tracker Status" mandatory="true" max_length="40" name="tracker_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Open" sequence="100" value="Open"/>
+                <element inactive_on_update="false" label="Closed" sequence="200" value="Closed"/>
+                <element inactive_on_update="false" label="Cancelled" sequence="300" value="Cancelled"/>
+            </choice>
+        </element>
         <element label="Vehicle" mandatory="true" max_length="32" name="vehicle" reference="x_1134503_lva_loaner_vehicle_catalog" type="reference"/>
         <element choice="1" label="Vehicle Status" mandatory="true" max_length="40" name="vehicle_status" type="choice">
             <choice>
-                <element inactive_on_update="false" label="Returned to Warehouse" sequence="500" value="Returned to Warehouse"/>
-                <element inactive_on_update="false" label="Returned for Inspection" sequence="300" value="Returned for Inspection"/>
                 <element inactive_on_update="false" label="Pending Release" sequence="100" value="Pending Release"/>
-                <element inactive_on_update="false" label="Decommissioned" sequence="600" value="Decommissioned"/>
-                <element inactive_on_update="false" label="Sent for Servicing" sequence="400" value="Sent for Servicing"/>
                 <element inactive_on_update="false" label="Out on Field" sequence="200" value="Out on Field"/>
+                <element inactive_on_update="false" label="Returned for Inspection" sequence="300" value="Returned for Inspection"/>
+                <element inactive_on_update="false" label="Sent for Servicing" sequence="400" value="Sent for Servicing"/>
+                <element inactive_on_update="false" label="Returned to Warehouse" sequence="500" value="Returned to Warehouse"/>
+                <element inactive_on_update="false" label="Decommissioned" sequence="600" value="Decommissioned"/>
             </choice>
         </element>
-        <element label="Additional Comments" max_length="1000" name="additional_comments" type="string"/>
-        <element label="Expected Return Date" max_length="40" name="expected_return_date" type="glide_date"/>
-        <element attributes="edge_encryption_enabled=true" label="Return Notes" max_length="1000" name="return_notes" type="string"/>
         <index name="index">
             <element name="assigned_to"/>
         </index>

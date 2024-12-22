@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="x_1134503_lva_u_kb_article_body_vehicle_description" label="Article Body vehicle description" language="en" table="u_kb_template_vehicle_description_template">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>x_1134503_lva_u_kb_article_body_vehicle_description</element>
+            <help/>
+            <hint/>
+            <label>Article Body vehicle description</label>
+            <language>en</language>
+            <name>u_kb_template_vehicle_description_template</name>
+            <plural>Article Body vehicle descriptions</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>richard.castillo</sys_created_by>
+            <sys_created_on>2024-09-18 21:57:40</sys_created_on>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Article Body vehicle description</sys_name>
+            <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+            <sys_update_name>sys_documentation_u_kb_template_vehicle_description_template_x_1134503_lva_u_kb_article_body_vehicle_description_en</sys_update_name>
+            <sys_updated_by>richard.castillo</sys_updated_by>
+            <sys_updated_on>2024-09-18 21:57:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

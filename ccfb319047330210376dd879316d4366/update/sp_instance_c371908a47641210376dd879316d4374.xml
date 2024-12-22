@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>0</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">cb71908a47641210376dd879316d4371</sp_column>
+        <sp_widget display_value="Portal Picker">95d72d1047001200ba13a5554ee4900b</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-11 03:34:28</sys_created_on>
+        <sys_id>c371908a47641210376dd879316d4374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Portal Picker</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_instance_c371908a47641210376dd879316d4374</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-11 03:34:28</sys_updated_on>
+        <title>Portal Picker</title>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=c371908a47641210376dd879316d4374"/>
+</record_update>

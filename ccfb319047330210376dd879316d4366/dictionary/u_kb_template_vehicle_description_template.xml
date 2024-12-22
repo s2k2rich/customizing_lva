@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="document_viewer_audit=all,global_search_config_handler=KnowledgeArticle,all_tables.text_index_translations=true,attachment_index=true,text_index_attachment_displayed=true,text_index_enable_idf=true,synch_attachments=true,use_document_viewer=true,text_index_filter_junk=false" audit="true" db_object_id="be901ca4c3f4121081919b377d01313b" extends="kb_knowledge" label="Vehicle Description Template" max_length="40" name="u_kb_template_vehicle_description_template" text_index="true" type="collection">
+        <element label="Article Body vehicle description" max_length="500" name="x_1134503_lva_u_kb_article_body_vehicle_description" text_index="true" type="string"/>
+    </element>
+</database>

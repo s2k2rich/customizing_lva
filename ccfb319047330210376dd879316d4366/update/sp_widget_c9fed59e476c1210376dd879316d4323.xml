@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function() {  /* widget controller */  var c = this;};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.fa-pause {&#13;
+  background: transparent!important;&#13;
+display: none;&#13;
+}&#13;
+&#13;
+.carousel-control.right,&#13;
+&#13;
+.carousel-control.left {&#13;
+&#13;
+   background: transparent!important;&#13;
+&#13;
+   display: none;&#13;
+&#13;
+}</css>
+        <data_table>sp_instance_carousel</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list>interval</field_list>
+        <has_preview>false</has_preview>
+        <id>vehicle_carousel</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>vehicle carousel</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[data.slides = $sp.getRelatedList('sp_carousel_slide','carousel');]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-12 03:51:25</sys_created_on>
+        <sys_id>c9fed59e476c1210376dd879316d4323</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>vehicle carousel</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_widget_c9fed59e476c1210376dd879316d4323</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-12 05:10:19</sys_updated_on>
+        <template><![CDATA[<div class="pull-in">
+  <uib-carousel interval="options.interval">
+    <uib-slide ng-repeat="slide in ::data.slides" active="slide.active">
+      <div class="container">
+        <a href="{{::slide.url}}" title="${Open carousel item}: {{::slide.name}}">
+          <img ng-src="{{::slide.background}}" style="margin:auto; width:35%;" role="presentation">
+        </a>
+      </div>
+    </uib-slide>
+  </uib-carousel>
+</div>]]></template>
+    </sp_widget>
+</record_update>

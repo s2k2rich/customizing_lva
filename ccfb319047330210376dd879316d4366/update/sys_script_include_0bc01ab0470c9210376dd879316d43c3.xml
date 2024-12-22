@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_1134503_lva.popLocation</api_name>
+        <caller_access/>
+        <client_callable>true</client_callable>
+        <description/>
+        <mobile_callable>false</mobile_callable>
+        <name>popLocation</name>
+        <sandbox_callable>true</sandbox_callable>
+        <script><![CDATA[var popLocation = Class.create();
+popLocation.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+
+locationDetail:function(){
+	var location = '';
+	var userid = this.getParameter('sysparm_user_name');
+
+	var gr = new GlideRecordSecure("sys_user");
+	gr.addQuery("sys_id", userid);
+	gr.query();
+
+	if (gr.next()) {
+
+    location = gr.getValue('location');    
+		}
+	return location;
+	
+	},
+    type: 'popLocation'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-08-13 19:42:23</sys_created_on>
+        <sys_id>0bc01ab0470c9210376dd879316d43c3</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>popLocation</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sys_script_include_0bc01ab0470c9210376dd879316d43c3</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-08-24 01:58:46</sys_updated_on>
+    </sys_script_include>
+</record_update>

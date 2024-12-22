@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="one_api_service_plan">
+    <one_api_service_plan action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <input_processor/>
+        <name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</name>
+        <output_processor display_value="OneExtendOutputProcessor">250bd34353111110c271ddeeff7b12da</output_processor>
+        <sys_class_name>one_api_service_plan</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-08-11 07:57:15</sys_created_on>
+        <sys_id>8a54e1c447001210376dd879316d43a8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Recommendations-1dbdf571fc387110f87736513ef7b2af-txcvxt25</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>one_api_service_plan_8a54e1c447001210376dd879316d43a8</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-08-11 07:57:15</sys_updated_on>
+        <timeout_ms>240000</timeout_ms>
+    </one_api_service_plan>
+</record_update>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>400</height>
+        <image>2ddee61947e09210376dd879316d4339</image>
+        <name>x_1134503_lva.ffcc99.png</name>
+        <size_bytes>4086</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-09 07:06:23</sys_created_on>
+        <sys_id>77be2a1947e09210376dd879316d4394</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_1134503_lva.ffcc99.png</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>db_image_77be2a1947e09210376dd879316d4394</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-12 17:14:07</sys_updated_on>
+        <thumbnail/>
+        <width>1920</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#ffcc99</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <hash>8f1f9e269e2763f46feac3a8989241f20b9bbaacfa402b4dfcdfcdd43de650e6</hash>
+        <image_height>400</image_height>
+        <image_width>1920</image_width>
+        <size_bytes>4086</size_bytes>
+        <size_compressed>260</size_compressed>
+        <state>available</state>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-09 07:06:30</sys_created_on>
+        <sys_id>2ddee61947e09210376dd879316d4339</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-09 07:06:30</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>77be2a1947e09210376dd879316d4394</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="2ddee61947e09210376dd879316d4339">2ddee61947e09210376dd879316d4339</sys_attachment>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-09 07:06:30</sys_created_on>
+        <sys_id>6ddee61947e09210376dd879316d4339</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCWJgYG9gYGCcwMEGFPFfUpsOpNiSvN1dGP6D4IK9yycDRTgLPCKLGRi4hUGYkWHWHAmgIHuJp68r+wtOTjYdDb9LC4FGMchmhkSUOOfn5qbmlTCAgHNRamJJaopCeWZJhoK7p29Ail4qOwMDf5Sni2NIxa23NwNFGQQYDjh80V8w2e/JhnLxxP2zv7+xZoCAH/cmQVkLDjKwQVgdBg2MEJYSTwKE0cDBLAFhKRwaVTaqbFTZqLJRZaPKRpWNKhtVNqpsVNmoslFlo8pGhDK5CwfYmuc4cy4B8Txd/VzWOSU0AQCWoIoe9g8AAA==</data>
+        <length>336</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="2ddee61947e09210376dd879316d4339">2ddee61947e09210376dd879316d4339</sys_attachment>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-09 07:06:30</sys_created_on>
+        <sys_id>eddee61947e09210376dd879316d4339</sys_id>
+    </sys_attachment_doc>
+</record_update>

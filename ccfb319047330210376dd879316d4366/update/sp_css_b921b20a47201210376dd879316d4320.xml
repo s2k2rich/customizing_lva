@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_css">
+    <sp_css action="INSERT_OR_UPDATE">
+        <css>&#13;
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&amp;display=swap');&#13;
+body, .sp-page {&#13;
+    font-family: 'Suez+One', sans-serif;&#13;
+}</css>
+        <name>suez_one font</name>
+        <sys_class_name>sp_css</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-11 15:15:53</sys_created_on>
+        <sys_id>b921b20a47201210376dd879316d4320</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>suez_one font</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_css_b921b20a47201210376dd879316d4320</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-11 15:15:53</sys_updated_on>
+        <turn_off_scss_compilation>false</turn_off_scss_compilation>
+    </sp_css>
+</record_update>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>false</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>false</add_message>
+        <advanced>true</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_1134503_lva_vehicle_servicing</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_1134503_lva_vehicle_servicing">ticket_statusCHANGESTOClosed^EQ<item display_value="Closed" endquery="false" field="ticket_status" goto="false" newquery="false" operator="CHANGESTO" or="false" value="Closed"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message/>
+        <name>updt trkr stat whn servTckt is closed</name>
+        <order>400</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
+
+    // Add your code here
+    var loaVehTrk = (current.vehicle_tracker); // Get the value of the vehicle_tracker field from the current record and assigns to loaVehTrk
+    if (loaVehTrk) { // Check if the vehicle_tracker field is populated
+        var newLoaVehTrk = new GlideRecord('x_1134503_lva_vehicle_tracker'); // Initialize a new GlideRecord for the vehicle_tracker table
+        if (newLoaVehTrk.get(loaVehTrk)) {// Query the vehicle_tracker table using the value from the current record
+            newLoaVehTrk.setValue('vehicle_status', current.vehicle_status);// Set the vehicle_status field on the queried record to the current record's vehicle_status
+            newLoaVehTrk.setValue('tracker_status', 'Closed');//Set the value of the tracker status field to 'Closed'
+
+            newLoaVehTrk.update();// Update the record in the vehicle_tracker table
+        }
+    }
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-03 22:34:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>54a7322747101210376dd879316d4379</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>updt trkr stat whn servTckt is closed</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sys_script_54a7322747101210376dd879316d4379</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-11 17:56:16</sys_updated_on>
+        <template/>
+        <when>after</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=54a7322747101210376dd879316d4379"/>
+</record_update>

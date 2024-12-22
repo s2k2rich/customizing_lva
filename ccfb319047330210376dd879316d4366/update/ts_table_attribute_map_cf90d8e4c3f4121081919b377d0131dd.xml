@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="ts_table_attribute_map">
+    <ts_table_attribute_map action="INSERT_OR_UPDATE">
+        <name display_value="Index Filter">dafb788eb7103300abfad298ee11a9c9</name>
+        <sys_class_name>ts_table_attribute_map</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-18 21:55:27</sys_created_on>
+        <sys_id>cf90d8e4c3f4121081919b377d0131dd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>dafb788eb7103300abfad298ee11a9c9</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>ts_table_attribute_map_cf90d8e4c3f4121081919b377d0131dd</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-18 21:55:27</sys_updated_on>
+        <table>u_kb_template_vehicle_description_template</table>
+        <ts_configuration display_value="kb_knowledge">28eefe427320330003da83a9fdf6a794</ts_configuration>
+        <value>workflow_stateNOT INretired,outdated</value>
+    </ts_table_attribute_map>
+</record_update>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="INSERT_OR_UPDATE">
+        <background_color/>
+        <background_image>6e4137fa47a01210376dd879316d4305</background_image>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>Haul YeaH - Container 1</name>
+        <order>1</order>
+        <semantic_tag/>
+        <sp_page display_value="hyc_index">316c4cce47241210376dd879316d4352</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-12 04:00:38</sys_created_on>
+        <sys_id>0411295247ac1210376dd879316d4319</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>Haul YeaH - Container 1</sys_name>
+        <sys_package display_value="Loaner Vehicle Request and Inventory" source="x_1134503_lva">ccfb319047330210376dd879316d4366</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Vehicle Request and Inventory">ccfb319047330210376dd879316d4366</sys_scope>
+        <sys_update_name>sp_container_0411295247ac1210376dd879316d4319</sys_update_name>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-14 03:47:44</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color>#9e2a2b</average_image_color>
+        <chunk_size_bytes>700000</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>background_image</file_name>
+        <hash>eb6d75ac033731f8d4a8cce1e3ba000fb9389433491092ef02173ffea1a14a3a</hash>
+        <image_height>400</image_height>
+        <image_width>1920</image_width>
+        <size_bytes>4086</size_bytes>
+        <size_compressed>258</size_compressed>
+        <state>available</state>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-14 03:47:44</sys_created_on>
+        <sys_id>6e4137fa47a01210376dd879316d4305</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_updated_by>richard.castillo</sys_updated_by>
+        <sys_updated_on>2024-09-14 03:47:44</sys_updated_on>
+        <table_name>ZZ_YYsp_container</table_name>
+        <table_sys_id>0411295247ac1210376dd879316d4319</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAA/w==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="background_image" sys_id="6e4137fa47a01210376dd879316d4305">6e4137fa47a01210376dd879316d4305</sys_attachment>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-14 03:47:44</sys_created_on>
+        <sys_id>ae4137fa47a01210376dd879316d4305</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>6wzwc+flkuJiYGDg9fRwCWJgYG9gYGCcwMEGFPFfUpsOpNiSvN1dGP6D4IK9yycDRTgLPCKLGRi4hUGYkWHWHAmgIHuJp68r+wtOPmZe48sm7fxAIdnMkIgS5/zc3NS8EgYQcC5KTSxJTVEozyzJUHD39A1I0UtlZ2Dgj/J0cQypuPX2pqPgAQWGAxsMLR9Irl7QHKe08H6f7fWfDBBQcU+fEcJyaGbkgbAEEhmYISwXiQNQdYJsBlBlLaPKRpWNKhtVNqpsVNmoslFlo8pGlY0qG1U2qmxU2YhQFrPXjVXohPTsHhDP09XPZZ1TQhMA60QhMvYPAAA=</data>
+        <length>332</length>
+        <position>1</position>
+        <sys_attachment display_value="background_image" sys_id="6e4137fa47a01210376dd879316d4305">6e4137fa47a01210376dd879316d4305</sys_attachment>
+        <sys_created_by>richard.castillo</sys_created_by>
+        <sys_created_on>2024-09-14 03:47:44</sys_created_on>
+        <sys_id>224137fa47a01210376dd879316d4306</sys_id>
+    </sys_attachment_doc>
+</record_update>
